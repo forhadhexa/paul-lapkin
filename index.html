@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+    <!-- REQUIRED META TAGS -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TITLE TAG -->
+    <title>Paul Lapkin</title>
+    <meta name="description" content="A simple portfolio website.">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
+    <!-- CSS FILES -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="vendors/css/animate.css">
+    <link rel="stylesheet" href="vendors/css/normalize.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="resources/css/main.css">
+    <link rel="stylesheet" href="resources/css/resposive.css">
+</head>
+<body>
+
+
+
+    <!-- START HEADER SECTION -->
+    
+    <header id="hero">
+        <nav class="clearfix" uk-sticky="top: 100; animation: uk-animation-slide-top; bottom: #sticky-on-scroll-up">
+            <div class="container">
+                <div class="logo">
+                    <a href="#">
+                        <img src="resources/img/logo.png" alt="imge">
+                    </a>
+                </div>
+                <div class="hamburger-menu">
+                    <div class="menu-icon">
+                        <a href="javascript:void()" onclick="openMenu()">
+                            <img src="./resources/img/menu-bar.png" alt="image">
+                        </a>
+                    </div>
+                </div>
+            </div>    
+        </nav>
+            <div class="menu-container" id="navbar" onclick="closeMenu()">
+                <div class="close-btn">
+                    <a href="javascript:void()" onclick="closeMenu()"><i class="far fa-times-circle"></i></a>
+                </div>
+                <div class="menu-items">
+                    <ul>
+                        <li><a onclick="closeMenu()" href="#hero">Home</a></li>
+                        <li><a onclick="closeMenu()" href="#about">About</a></li>
+                        <li><a onclick="closeMenu()" href="#process">Process</a></li>
+                        <li><a onclick="closeMenu()" href="#work">Work</a></li>
+                        <li><a onclick="closeMenu()" href="#portfolio">Portfolio</a></li>
+                        <li><a onclick="closeMenu()" href="#tm">TESTMONIAL</a></li>
+                        <li><a onclick="closeMenu()" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="wow bounceIn" data-wow-duration="1s">
+                <div class="hero-text-box">
+                    <h1>Paul Lapkin</h1>
+                    <br>
+                    <span>#User Experience  #Music  #Creative Direction</span>
+                </div>
+            </div>
+            <div class="scroll-cta-btn">
+                <a href="#about">
+                    <i class="fas fa-angle-double-down"></i>
+                </a>
+            </div>
+    </header>
+
+    <!-- END HEADER SECTION -->
+
+    <!-- ABOUT SECTION START -->
+
+    <section class="pt12 pb12" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-grid-item wow rotateIn" data-wow-duration="1s">
+                    <img src="resources/img/paul.jpg" alt="paul" class="paul">
+                </div>
+                <div class="about-grid-item wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                    <h4>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat. <br> <br> Duis autem vel eum iriure dolorin hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nullafacilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore.</p>
+                    <div class="about-cta-btn">
+                        <a href="#" class="btn btn-full">Hire Me!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION END -->
+
+    <!-- PROCES SECTION START -->
+
+    <section id="process" class="pt12 pb12">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Working Process</h2>
+                <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            </div>
+            <div class="process-grid">
+                <div class="process-grid-item">
+                    <div class="process-icon">
+                        <img src="resources/img/processicon/Monitor.png" alt="monitor">
+                    </div>
+                    <h4>Design</h4>
+                </div>
+                <div class="process-grid-item">
+                    <div class="process-icon">
+                        <img src="resources/img/processicon/Magic wand.png" alt="magic">
+                    </div>
+                    <h4>DEVELOPMENT</h4>
+                </div>
+                <div class="process-grid-item">
+                    <div class="process-icon">
+                        <img src="resources/img/processicon/params.png" alt="params">
+                    </div>
+                    <h4>testing</h4>
+                </div>
+                <div class="process-grid-item">
+                    <div class="process-icon">
+                        <img src="resources/img/processicon/Plane.png" alt="plane">
+                    </div>
+                    <h4>launch</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROCES SECTION END -->
+
+    <!-- WORK SECTION START -->
+
+    <section id="work" class="pb12">
+        <div class="container">
+            <div class="work-grid">
+                <div class="work-grid-item">
+                    <h2>Work Experience</h2>
+                    <div class="job">
+                        <h4>Work Experience</h4>
+                        <span>OCT 2013 - june 2014</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Crazy Design</h4>
+                        <span>OCT 2014 - june 2015</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+                <div class="work-grid-item">
+                    <h2>Education</h2>
+                    <div class="job">
+                        <h4>Maddison University</h4>
+                        <span>Maddison University</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                    <hr>
+                    <div class="job">
+                        <h4>Max Design & Art Institute</h4>
+                        <span>OCT 2014 - Present</span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WORK SECTION END -->
+
+    <!-- PORTFOILO SECTION START -->
+
+    <section id="portfolio" class="pt12 pb12">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Latest Works</h2>
+                <p>Hi, i’m Paul Lapkin, Experience Crafter from Canada.</p>
+            </div>
+            <div class="portfolio-filter">
+                <button type="button" data-filter="all">All</button>
+                <button type="button" data-filter=".web-desing">Web Design</button>
+                <button type="button" data-filter=".web-development">Web Development</button>
+                <button type="button" data-filter=".wp">Wordpress</button>
+            </div>
+            <div class="portfolio-grid">
+                <div class="portfolio-grid-item mix web-desing">
+                    <a href="resources/img/portfolio/lwp1.jpg"><img src="resources/img/portfolio/lwp1.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix wp">
+                    <a href="resources/img/portfolio/lwp2.jpg"><img src="resources/img/portfolio/lwp2.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix web-development">
+                    <a href="resources/img/portfolio/lwp3.jpg"><img src="resources/img/portfolio/lwp3.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix wp">
+                    <a href="resources/img/portfolio/lwp4.jpg"><img src="resources/img/portfolio/lwp4.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix web-desing">
+                    <a href="resources/img/portfolio/lwp5.jpg"><img src="resources/img/portfolio/lwp5.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix web-development">
+                    <a href="resources/img/portfolio/lwp6.jpg"><img src="resources/img/portfolio/lwp6.jpg" alt="image"></a>
+                </div>
+                <div class="portfolio-grid-item mix wp">
+                    <a href="resources/img/portfolio/lwp7.jpg"><img src="resources/img/portfolio/lwp7.jpg" alt="image"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFOILO SECTION END -->
+
+    <!-- TESTMONIAL SECTION START -->
+
+    <section id="tm" class="pt12 pb12">
+        <div class="container">
+            <div class="tm-grid">
+                <div class="tm-grid-item">
+                    <img src="resources/img/quote.png" alt="quote">
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquipex ea commodo consequat.</p>
+                    <img src="resources/img/signature.png" alt="signature">
+                    <h4>Deniel Croft</h4>
+                    <span>Creative Designer, Levy</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTMONIAL SECTION END -->
+
+    <!-- CONTACT SECTION START -->
+
+    <section id="contact" class="pt12 pb12">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-grid-item wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                    <h2>Leave a message</h2>
+                    <form action="#" method="POST">
+                        <input type="text" placeholder="Name*" required>
+                        <input type="email" placeholder="Email*" required>
+                        <input type="text" placeholder="Subject*" required>
+                        <textarea name="message" placeholder="Message*"></textarea>
+                        <div class="submit wow bounceIn" data-wow-duration="1s" data-wow-delay="2s">
+                            <input type="submit" value="Hire Me!" class="btn submit-btn">
+                        </div>
+                    </form>
+                </div>
+                <div class="contact-grid-item nested-contact-grid wow fadeInRight" data-wow-duration="1s" data-wow-delay="1s">
+                    <div class="nested-contact-grid-item">
+                        <h2>Address</h2>
+                        <p>Gulshan Sales Office. SA Tower (Level-5), Plot#1, Road#134, Block SE(A), Gulshan-1, Dhaka 1212.</p>
+                    </div>
+                    <div class="nested-contact-grid-item">
+                        <h2>Phone</h2>
+                        <p>+880 174 037 6995 <br> +880 191 448 6969</p>
+                    </div>
+                    <div class="nested-contact-grid-item">
+                        <h2>Web</h2>
+                        <p>Mail: quicksayed@gmail.com <br> Website: dribbble.com/alisayed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION END -->
+
+    <!-- FOOTER SECTION START -->
+
+    <footer id="footer">
+        <div class="container">
+            <div class="social-icon">
+                <ul>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                </ul>
+            </div>
+            <div class="copy-right">
+                Copyright: <a href="#">Forhad Hexa</a> | All Rights Reserved
+            </div>
+        </div>
+    </footer>
+
+    <!-- FOOTER SECTION END -->
+
+
+    <!-- JS FILES -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="vendors/js/modernizr-3.11.2.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.5.1/dist/ionicons.js"></script>
+    <script src="vendors/js/particles.min.js"></script>
+    <script src="vendors/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.22/dist/js/uikit-icons.min.js"></script>
+    <script src="vendors/js/wow.min.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
+    <script src="resources/js/main.js"></script>
+
+</body>
+</html>
